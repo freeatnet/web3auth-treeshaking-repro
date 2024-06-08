@@ -1,6 +1,7 @@
 import "~/styles/globals.css";
 
 import { GeistSans } from "geist/font/sans";
+import Web3AuthProvider from "./_providers/web3auth";
 
 export const metadata = {
   title: "Create T3 App",
@@ -15,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={GeistSans.className}>{children}</body>
+      <body className={GeistSans.className}>
+        <Web3AuthProvider>{children}</Web3AuthProvider>
+      </body>
     </html>
   );
 }
