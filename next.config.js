@@ -7,7 +7,13 @@ import withBundleAnalyzerFactory from "@next/bundle-analyzer";
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+  experimental: {
+    // Get leaner client builds by disabling polyfills for node.js modules like "crypto"
+    // cf. https://github.com/vercel/next.js/pull/39248
+    fallbackNodePolyfills: false,
+  },
+};
 
 const withBundleAnalyzer = withBundleAnalyzerFactory({
   enabled: process.env.ANALYZE === "true",
