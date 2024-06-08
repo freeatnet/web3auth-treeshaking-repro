@@ -1,0 +1,12 @@
+diff --git a/index.js b/index.js
+index 855843aec69ac7d616e28920215530c4e5f11485..c975d7ea17f1cddd1e30e7b0a41044c07c52ed23 100644
+--- a/index.js
++++ b/index.js
+@@ -10,6 +10,7 @@ module.exports =
+               analyzerMode: analyzerMode || 'static',
+               logLevel,
+               openAnalyzer,
++              generateStatsFile: true,
+               reportFilename: !options.nextRuntime
+                 ? `./analyze/client.html`
+                 : `../${options.nextRuntime === 'nodejs' ? '../' : ''}analyze/${

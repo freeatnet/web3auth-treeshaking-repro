@@ -9,7 +9,13 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "pnpm": {
+    "patchedDependencies": {
+      "@next/bundle-analyzer@14.2.3": "patches/@next__bundle-analyzer@14.2.3.patch"
+    }
+  },
   "dependencies": {
+    "@next/bundle-analyzer": "14.2.3",
     "@t3-oss/env-nextjs": "^0.10.1",
     "@web3auth/base": "^8.6.2",
     "@web3auth/ethereum-provider": "^8.6.2",
