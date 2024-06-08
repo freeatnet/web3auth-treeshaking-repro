@@ -8,6 +8,9 @@ patchedDependencies:
   '@next/bundle-analyzer@14.2.3':
     hash: qlb3s2rf6an6mrff6f2lp24lw4
     path: patches/@next__bundle-analyzer@14.2.3.patch
+  '@toruslabs/base-controllers@5.8.0':
+    hash: e5gfkqicxjaooshbi7j6b56avi
+    path: patches/@toruslabs__base-controllers@5.8.0.patch
 
 importers:
 
@@ -2208,7 +2211,7 @@ snapshots:
     optionalDependencies:
       typescript: 5.4.5
 
-  '@toruslabs/base-controllers@5.8.0(@babel/runtime@7.24.7)':
+  '@toruslabs/base-controllers@5.8.0(patch_hash=e5gfkqicxjaooshbi7j6b56avi)(@babel/runtime@7.24.7)':
     dependencies:
       '@babel/runtime': 7.24.7
       '@ethereumjs/util': 9.0.3
@@ -2496,7 +2499,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.7
       '@metamask/rpc-errors': 6.3.0
-      '@toruslabs/base-controllers': 5.8.0(@babel/runtime@7.24.7)
+      '@toruslabs/base-controllers': 5.8.0(patch_hash=e5gfkqicxjaooshbi7j6b56avi)(@babel/runtime@7.24.7)
       '@toruslabs/openlogin-jrpc': 8.1.1(@babel/runtime@7.24.7)
       '@web3auth/base': 8.6.2(@babel/runtime@7.24.7)
       json-rpc-random-id: 1.0.1
@@ -2531,7 +2534,7 @@ snapshots:
       '@ethereumjs/util': 9.0.3
       '@metamask/eth-sig-util': 7.0.2
       '@metamask/rpc-errors': 6.3.0
-      '@toruslabs/base-controllers': 5.8.0(@babel/runtime@7.24.7)
+      '@toruslabs/base-controllers': 5.8.0(patch_hash=e5gfkqicxjaooshbi7j6b56avi)(@babel/runtime@7.24.7)
       '@toruslabs/http-helpers': 6.1.1(@babel/runtime@7.24.7)
       '@toruslabs/openlogin-jrpc': 8.1.1(@babel/runtime@7.24.7)
       '@web3auth/base': 8.6.2(@babel/runtime@7.24.7)

@@ -11,7 +11,8 @@
   },
   "pnpm": {
     "patchedDependencies": {
-      "@next/bundle-analyzer@14.2.3": "patches/@next__bundle-analyzer@14.2.3.patch"
+      "@next/bundle-analyzer@14.2.3": "patches/@next__bundle-analyzer@14.2.3.patch",
+      "@toruslabs/base-controllers@5.8.0": "patches/@toruslabs__base-controllers@5.8.0.patch"
     }
   },
   "dependencies": {
